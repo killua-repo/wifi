@@ -43,3 +43,31 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter
+.build/
+.dart_tool/
+.packages
+.pub/
+pubspec.lock
+
+# Android
+/android/.gradle/
+/android/app/build/
+
+# iOS
+/ios/Pods/
+/ios/Runner.xcworkspace/
+
+# VSCode
+.vscode/
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Large files
+*.zip
+*.apk
+*.exe
+*.iso
