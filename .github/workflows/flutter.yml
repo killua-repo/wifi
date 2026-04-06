@@ -1,8 +1,9 @@
 name: Build Windows EXE
 
 on:
-  push:
-    branches: [ "main" ]
+  # push:
+  #   branches: [ "main" ]
+  workflow_dispatch:  # فقط عند التشغيل اليدوي
 
 jobs:
   build:
