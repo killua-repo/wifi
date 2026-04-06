@@ -71,3 +71,18 @@ Thumbs.db
 *.apk
 *.exe
 *.iso
+
+
+build/
+.dart_tool/
+.idea/
+.vscode/
+
+# Windows build
+/windows/flutter/ephemeral/
+
+# Logs
+*.log
+
+# Temp
+*.tmp
